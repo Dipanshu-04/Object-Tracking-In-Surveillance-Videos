@@ -1,5 +1,5 @@
-1- image processing jupyter
-2- bounding box uisng tinyYOLO
-3- object tracking
+1- image processing using OpenCV
+2- Object Detection uisng tinyYOLO
+3- object tracking using DNN
 4- dense optical flow
 5- sparse optical flow
