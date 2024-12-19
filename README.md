@@ -1,0 +1,1 @@
+Projects implemented in accordance to the requirements for Infosys Springboard Internship 5.0

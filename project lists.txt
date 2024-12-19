@@ -1,5 +1,5 @@
-image processing jupyter
-, bounding box uisng tinyYOLO
-, object tracking
-, dense opt
-, sparse opt flow
+1- image processing jupyter
+2- bounding box uisng tinyYOLO
+3- object tracking
+4- dense optical flow
+5- sparse optical flow
