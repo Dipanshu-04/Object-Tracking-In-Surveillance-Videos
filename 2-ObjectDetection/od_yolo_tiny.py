@@ -1,7 +1,6 @@
 from imageai.Detection import VideoObjectDetection
 import os
 import time
-import torch
 
 # Start timing
 start_time = time.time()
@@ -43,7 +42,7 @@ else:
     video_detector.loadModel()
 
 # Path to input video
-input_video_path = os.path.join(execution_path, "videos/VID2.mp4")
+input_video_path = os.path.join(execution_path, "videos/TrafficVid1.mp4")
 if not os.path.exists(input_video_path):
     print(f"Input video file not found at {input_video_path}. Please provide a valid video file.")
 else:

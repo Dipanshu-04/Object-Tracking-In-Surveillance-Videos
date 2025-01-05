@@ -6,7 +6,7 @@ import math
 # Initialize Object Detection
 od = ObjectDetection()
 input_video_path = "C:/Users/dipan/Desktop/Development/Infosys/videos/TrafficVid2.mp4"
-output_video_path = "3-ObjectTracking/Output/output.avi"
+output_video_path = "3-ObjectTracking/Output/output.mp4"
 
 cap = cv2.VideoCapture(input_video_path)
 
@@ -15,7 +15,7 @@ frame_width = int(cap.get(cv2.CAP_PROP_FRAME_WIDTH))
 frame_height = int(cap.get(cv2.CAP_PROP_FRAME_HEIGHT))
 fps = int(cap.get(cv2.CAP_PROP_FPS))
 output_video = cv2.VideoWriter(
-    output_video_path, cv2.VideoWriter_fourcc(*"XVID"), fps, (frame_width, frame_height)
+    output_video_path, cv2.VideoWriter_fourcc(*"avc1"), fps, (frame_width, frame_height)
 )
 
 # Initialize variables
